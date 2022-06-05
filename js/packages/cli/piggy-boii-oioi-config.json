@@ -1,0 +1,19 @@
+{
+    "price": 0.2747,
+    "number": 777,
+    "gatekeeper": null,
+    "solTreasuryAccount": "9wWrqjd56NfHyzteE1VBuv7LKZFgZJnkZfQLhpgvYdWg",
+    "splTokenAccount": null,
+    "splToken": null,
+    "goLiveDate": null,
+    "endSettings": null,
+    "whitelistMintSettings": null,
+    "hiddenSettings": null,
+    "storage": "nft-storage",
+    "ipfsInfuraProjectId": null,
+    "ipfsInfuraSecret": null,
+    "awsS3Bucket": null,
+    "nftStorageKey": null,
+    "noRetainAuthority": false,
+    "noMutable": false
+  }
