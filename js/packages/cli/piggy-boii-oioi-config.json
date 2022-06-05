@@ -6,7 +6,10 @@
     "splTokenAccount": null,
     "splToken": null,
     "goLiveDate": null,
-    "endSettings": null,
+    "endSettings": {
+      "endSettingType": { "amount":true },
+      "value":777
+    },
     "whitelistMintSettings": null,
     "hiddenSettings": null,
     "storage": "nft-storage",

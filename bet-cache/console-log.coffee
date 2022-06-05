@@ -1,3 +1,14 @@
+
+PATH="/Users/hail/.local/share/solana/install/active_release/bin:$PATH" 
+
+ts-node ./js/packages/cli/src/candy-machine-v2-cli.ts verify_assets ./assets
+
+
+
+solana config set --url https://api.devnet.solana.com
+solana config set --url https://api.mainnet-beta.solana.com
+solana config set --url https://solana-mainnet.gateway.pokt.network/v1/lb/629b438150ec8c0039bca4cb
+
 Candy machine address:  AQjmn6XYzEQzEsTtrLJVZQzD9YXUgXooJdkLZiJf2zdL
 Collection metadata address:  Bs4HxUsghZoagjL6SfvrrzM3uP7XVZEYzHwLLN1BY38j
 Collection metadata authority:  9wWrqjd56NfHyzteE1VBuv7LKZFgZJnkZfQLhpgvYdWg
@@ -11,6 +22,3 @@ Collection:  {
   txId: '4n4qGtJ7PVGAfVDbWvEZZJFyiKu3BBzJRuqDUguyG9kNBMvd8iEfSRPSMBNtAHua9AGuLngvpTMcSToaDRRY8nS6'
 }
 
-solana config set --url https://api.devnet.solana.com
-solana config set --url https://api.mainnet-beta.solana.com
-solana config set --url https://solana-mainnet.gateway.pokt.network/v1/lb/629b438150ec8c0039bca4cb

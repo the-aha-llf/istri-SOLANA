@@ -1,6 +1,7 @@
 node_modules/
 .anchor
 **/*.rs.bk
+assets/
 build/
 rust/test/nft-candy-machine.js
 dist/

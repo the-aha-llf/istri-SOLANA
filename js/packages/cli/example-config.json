@@ -1,0 +1,34 @@
+{
+  "price": 0.2747,
+  "number": 47,
+  "gatekeeper": {
+    "gatekeeperNetwork": "ignREusXmGrscGNUesoU9mxfds9AiYTezUKex2PsZV6",
+    "expireOnUse": true
+  },
+  "solTreasuryAccount": "9wWrqjd56NfHyzteE1VBuv7LKZFgZJnkZfQLhpgvYdWg",
+  "splTokenAccount": null,
+  "splToken": null,
+  "goLiveDate": "29 Feb 2024 00:00:00 GMT",
+  "endSettings": {
+    "endSettingType": { "amount":true },
+    "value":47
+  },
+  "whitelistMintSettings": {
+    "mode" : { "burnEveryTime": true },
+    "mint" : "MINT-ADDRESS-WL-SPL-TOKEN",
+    "presale" : true,
+    "discountPrice" : 0.047
+  },
+  "hiddenSettings": {
+    "name":"The Hidden Gem ",
+    "uri":"uri",
+    "hash":"Pr0f3550rNOTAt0L4zytoC4lcul4t3th3H45h"
+  },
+  "storage": "arweave-sol",
+  "ipfsInfuraProjectId": null,
+  "ipfsInfuraSecret": null,
+  "awsS3Bucket": null,
+  "nftStorageKey": null,
+  "noRetainAuthority": false,
+  "noMutable": false
+}
