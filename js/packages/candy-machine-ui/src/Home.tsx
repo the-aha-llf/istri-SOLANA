@@ -37,7 +37,7 @@ const ConnectButton = styled(WalletDialogButton)`
   height: 60px;
   margin-top: 10px;
   margin-bottom: 5px;
-  background: linear-gradient(180deg, #604ae5 0%, #813eee 100%);
+  background: linear-gradient(180deg, #2d2a29 0%, #060505 100%);
   color: white;
   font-size: 16px;
   font-weight: bold;
@@ -476,14 +476,48 @@ const Home = (props: HomeProps) => {
     })();
   }, [refreshCandyMachineState]);
 
+  const PreviewImg = styled('img')`
+    width: 100%;
+    height: 374px;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 10px;
+    border-radius: 2%;
+  `;
+
+  const KingsNFT = styled('a')`
+    cursor: pointer;
+    color: #971413;
+    text-decoration: none;
+  `;
+
   return (
-    <Container style={{ marginTop: 100 }}>
+    <Container style={{ marginTop: 47 }}>
       <Container maxWidth="xs" style={{ position: 'relative' }}>
         <Paper
           style={{
             padding: 24,
             paddingBottom: 10,
-            backgroundColor: '#151A1F',
+            backgroundColor: '#060505',
+            borderRadius: 6,
+            borderColor: '#fff',
+          }}
+        >
+          <Typography
+            variant="h6"
+            align="center"
+            color="textPrimary"
+            style={{ fontWeight: 'bold' }}
+          >
+            PIGGY BOII OIOI
+          </Typography>
+        </Paper>
+        <PreviewImg src="/piggy-boii.gif" alt="Piggy Boii OiOi" />
+        <Paper
+          style={{
+            padding: 10,
+            paddingBottom: 10,
+            backgroundColor: '#c1beb0',
             borderRadius: 6,
           }}
         >
@@ -697,9 +731,16 @@ const Home = (props: HomeProps) => {
             variant="caption"
             align="center"
             display="block"
-            style={{ marginTop: 7, color: 'grey' }}
+            style={{ marginTop: 7, color: '#060505', fontWeight: 'bold' }}
           >
-            Powered by METAPLEX
+            <KingsNFT
+              href="https://github.com/the-aha-llf/the-kings-nft/wiki/The-Creations"
+              target="_blank"
+              rel="noreferrer"
+              title="The King's NFT Wiki"
+            >
+              Part of The King's NFT
+            </KingsNFT>
           </Typography>
         </Paper>
       </Container>

@@ -1,11 +1,14 @@
 {
     "price": 0.2747,
     "number": 777,
-    "gatekeeper": null,
+    "gatekeeper": {
+      "gatekeeperNetwork": "ignREusXmGrscGNUesoU9mxfds9AiYTezUKex2PsZV6",
+      "expireOnUse": true
+    },
     "solTreasuryAccount": "9wWrqjd56NfHyzteE1VBuv7LKZFgZJnkZfQLhpgvYdWg",
     "splTokenAccount": null,
     "splToken": null,
-    "goLiveDate": null,
+    "goLiveDate": "5 Jun 2022 00:00:00 GMT",
     "endSettings": {
       "endSettingType": { "amount":true },
       "value":777
