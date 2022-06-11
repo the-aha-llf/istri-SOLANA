@@ -26,4 +26,9 @@ ts-node ./js/packages/cli/src/candy-machine-v2-cli.ts verify_upload -e mainnet-b
 ts-node ./js/packages/cli/src/candy-machine-v2-cli.ts mint_one_token -e mainnet-beta -k ~/.config/solana/phantom-myreceipt.json -c pboioi
 ts-node ./js/packages/cli/src/candy-machine-v2-cli.ts mint_multiple_tokens -e mainnet-beta -k ~/.config/solana/phantom-myreceipt.json -c pboioi --number 277
 
+"gatekeeper": {
+  "gatekeeperNetwork": "ignREusXmGrscGNUesoU9mxfds9AiYTezUKex2PsZV6",
+  "expireOnUse": true
+},
+
 ts-node ./js/packages/cli/src/candy-machine-v2-cli.ts update_candy_machine -e mainnet-beta -k ~/.config/solana/phantom-myreceipt.json -cp ./js/packages/cli/piggy-boii-oioi-config.json -c pboioi
