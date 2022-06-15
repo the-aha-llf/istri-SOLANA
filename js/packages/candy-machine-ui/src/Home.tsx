@@ -509,10 +509,10 @@ const Home = (props: HomeProps) => {
             color="textPrimary"
             style={{ fontWeight: 'bold' }}
           >
-            PIGGY BOII OIOI
+            ZALEZ LABS VIP
           </Typography>
         </Paper>
-        <PreviewImg src="/piggy-boii.gif" alt="Piggy Boii OiOi" />
+        <PreviewImg src="/zalez-vip.gif" alt="Zalez Labs VIP" />
         <Paper
           style={{
             padding: 10,
@@ -730,14 +730,14 @@ const Home = (props: HomeProps) => {
             display="block"
             style={{ marginTop: 7, color: '#060505', fontWeight: 'bold' }}
           >
-            <KingsNFT
+            {/* <KingsNFT
               href="https://github.com/the-aha-llf/the-kings-nft/wiki/The-Creations"
               target="_blank"
               rel="noreferrer"
               title="The King's NFT Wiki"
             >
               Part of The King's NFT
-            </KingsNFT>
+            </KingsNFT> */}
           </Typography>
         </Paper>
       </Container>
