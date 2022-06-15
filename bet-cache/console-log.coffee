@@ -32,3 +32,5 @@ ts-node ./js/packages/cli/src/candy-machine-v2-cli.ts mint_multiple_tokens -e ma
 },
 
 ts-node ./js/packages/cli/src/candy-machine-v2-cli.ts update_candy_machine -e mainnet-beta -k ~/.config/solana/phantom-myreceipt.json -cp ./js/packages/cli/piggy-boii-oioi-config.json -c pboioi
+ts-node ./js/packages/cli/src/candy-machine-v2-cli.ts sign_all -e mainnet-beta -k ~/.config/solana/phantom-myreceipt.json -c pboioi
+ts-node ./js/packages/cli/src/candy-machine-v2-cli.ts withdraw 4Bkis2TAYzX7JWYVgQeKZVsjrmJ51Rd9GWR1sFSarPbk -e mainnet-beta -k ~/.config/solana/phantom-myreceipt.json
