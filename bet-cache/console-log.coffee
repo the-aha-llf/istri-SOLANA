@@ -1,6 +1,9 @@
 
 PATH="/Users/hail/.local/share/solana/install/active_release/bin:$PATH"
 
+solana config set --keypair /Users/hail/.config/solana/DeploySOL.json
+solana config set --keypair /Users/hail/.config/solana/MyReceipt.json
+
 solana config set --url https://api.devnet.solana.com
 solana config set --url https://api.mainnet-beta.solana.com
 solana config set --url https://solana-mainnet.gateway.pokt.network/v1/lb/629b438150ec8c0039bca4cb

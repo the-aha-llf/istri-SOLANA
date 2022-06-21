@@ -1,14 +1,14 @@
 {
-  "price": 2.0,
-  "number": 50,
+  "price": 0.1,
+  "number": 555,
   "gatekeeper": null,
-  "solTreasuryAccount": "n7TMQ8a5GuWtXEewfHJofbNt2KN7jshuUSA1bwzNRFh",
+  "solTreasuryAccount": "N4f6zftYsuu4yT7icsjLwh4i6pB1zvvKbseHj2NmSQw",
   "splTokenAccount": null,
   "splToken": null,
-  "goLiveDate": "15 Jun 2022 00:00:00 GMT",
+  "goLiveDate": "22 Jun 2022 00:00:00 GMT",
   "endSettings": {
     "endSettingType": { "amount":true },
-    "value":50
+    "value":555
   },
   "whitelistMintSettings": null,
   "hiddenSettings": null,
